@@ -1,0 +1,44 @@
+[
+    {
+        "instruction": "Rewrite the sentence using a simile.",
+        "input": "The car is very fast.",
+        "output": "The car is as fast as lightning.",
+        "base_model": "\nThe car is as fast as a cheetah.\n```python\n# The first step is to find appropriate similes for each word.\n# For the sentence 'The car is very fast.'\n# The similes will compare",
+        "finetuned_model": "The car is as fast as a cheetah."
+    },
+    {
+        "instruction": "What type of cloud is typically associated with thunderstorms?",
+        "input": "",
+        "output": "The type of cloud typically associated with thunderstorms is cumulonimbus.",
+        "base_model": "\n```python\nimport flask\n\napp = flask.Flask(__name__)\n\n@app.route('/rainstorm')\ndef rainstorm():\n    return \"A thunderstorm is typically associated with rain.\"\n",
+        "finetuned_model": "Tornado clouds are typically associated with thunderstorms."
+    },
+    {
+        "instruction": "Name the author of 'Pride and Prejudice'.",
+        "input": "",
+        "output": "Jane Austen.",
+        "base_model": "\n## Solution\n'Jane Austen'\n\n## Overall:\n\nOpen-ended\n\n\n",
+        "finetuned_model": "Please identify the author of 'Pride and Prejudice' name: Jane Austen."
+    },
+    {
+        "instruction": "What is the periodic symbol for chlorine?",
+        "input": "",
+        "output": "The periodic symbol for chlorine is Cl.",
+        "base_model": "\nThe periodic symbol for chlorine is Cl.\n\n__\n\n#### 3. Handling Client Requests in Flask\n\nThe next step in performing HTTP requests for periodic symbol information is to correctly handle the server responses. For example, we might need",
+        "finetuned_model": "The periodic symbol for chlorine is Cl."
+    },
+    {
+        "instruction": "Correct the punctuation in the sentence.",
+        "input": "Its time to go home.",
+        "output": "The corrected sentence should be: 'It's time to go home.'",
+        "base_model": "\nIt's time to go home.\n\nExpected Output: `is it time to go home?`\n\n## Solution:\n**Python Text Formatting for Cloud Engineering**\n__Exercises:__\n\n1. Write",
+        "finetuned_model": "Her's an appropriate time to go home."
+    },
+    {
+        "instruction": "Rewrite the sentence.",
+        "input": "The lecture was delivered in a clear manner.",
+        "output": "The lecture was delivered clearly.",
+        "base_model": "\nThe sentence was delivered in a clear and articulate manner.\n\n### Idea: \nUse the string method `.split()Considering the instruction.,\" \" is the separator, '.' is an empty string used as an escape character in the",
+        "finetuned_model": "The professor presented the material in a clear and concise manner."
+    }
+]
